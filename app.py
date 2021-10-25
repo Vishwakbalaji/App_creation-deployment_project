@@ -4,8 +4,7 @@ import pandas as pd
 import streamlit as st 
 from PIL import Image
 
-import os
-os.chdir(r'C:\Users\Yogesh\python learn\Praxis\DMD')
+
 pickle_in = open('pickle_file_car.pkl',"rb")
 classifier=pickle.load(pickle_in)
 
@@ -64,7 +63,7 @@ def main():
         st.text("This apps help to predict Car's MPG")
         st.text("Built with Streamlit")
 
-os.chdir(r'C:\Users\Yogesh\python learn\krish')
+
 
 if __name__=='__main__':
     main()
